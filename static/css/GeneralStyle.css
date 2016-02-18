@@ -1,0 +1,182 @@
+ 
+
+ 
+.tableData {
+  border-width : 0px;
+  border-style : solid;
+  border-color : #eedebb;
+  border-collapse : collapse;
+  padding : 2;
+  text-align: left; 
+  width: 100%;
+}
+
+.tableData tr {
+  border-width : 0px 0px 1px 0px;
+  border-style : solid;
+  border-color : #eedebb;
+  text-align: left; 
+}
+
+
+.tableData tbody {
+  overflow-y : auto;
+  font-size : 1em:
+}
+
+.tableData thead tr th {
+  font-size : .6em:
+}
+
+.panel {
+  height : 70%;
+}
+
+#Paneles {
+  height : 100%;
+}
+
+
+.botonChico {
+  font-size: 0.7em !important;
+}
+
+.botonMediano {
+  font-size: 0.9em !important;
+}
+
+.h5_sinMargen {
+  margin-top: 0px;
+  margin-bottom: 3px;  
+}
+
+body {
+  background-color: #666666;
+}
+
+#MenuSuperior {
+  width:100%;
+  height:5%; 
+  margin:auto auto;
+  background-color: #666666;
+  /*border-radius : 5px;
+  -moz-border-radius : 5px;
+  -webkit-border-radius : 5px;*/
+}
+
+#menu {
+  width: 800px;
+  margin: auto auto;
+  text-align: center;
+}
+#menu ul {
+  margin: auto;
+  padding: 0px;
+  list-style-type: none;
+  width: 98%;
+  font-family: Arial,sans-serif;
+  font-size: 11pt;
+}
+#menu ul li {
+  background-color: #666666;
+  display: inline;
+}
+#menu ul li a {
+  padding: 10px;
+  float : left;
+  color: #cccccc;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #6f6f6f none repeat scroll 0% 50%;
+  font-weight: normal;
+}
+#menu ul li a:hover {
+  border-left: 2px solid #333333;
+  background: #000000 none repeat scroll 0% 50%;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#PanelBusqueda {
+  width:98%;
+  margin:1px auto;
+  background-color: #fff;
+  border-radius : 5px;
+  -moz-border-radius : 5px;
+  -webkit-border-radius : 5px;
+  border-color: #AAA;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#buscarForm {
+  width:100%;
+  margin:5px auto;
+  padding:10px;
+}
+
+div#PanelPrincipal {
+  width:100%;
+  height: 90%;
+}
+
+div#PanelIzquierda {
+  width:10%;
+  height: 100%;
+  background: inherit;
+  float: left;
+}
+
+div#PanelDerecha {
+  width:20%;
+  height: 100%;
+  float: left;
+  background: inherit;
+}
+
+div#PanelCentral {
+  width:70%;
+  height: 100%;
+  float: left;
+  background: inherit;
+}
+
+div#BarraEstado {
+  height: 10%;
+  background: inherit;
+}
+
+#PanelesResizer {
+  width:98%; 
+  height:80%; 
+  margin: auto auto; 
+}
+
+#PanelGrilla {
+  width:98%; 
+  height:80%; 
+  margin: auto auto;
+  background-color: #fff;
+  border-radius : 5px;
+  -moz-border-radius : 5px;
+  -webkit-border-radius : 5px;  
+  border-color: #AAA;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.par {
+  background-color: #ededed; }
+.par td {
+  border-bottom: 1px solid #0d0d0d; }
+
+.impar {
+  background-color: #dedede; }
+.impar td {
+  border-bottom: 1px solid #0d0d0d; }
+  
+  
+.tablediv {
+  display: inline;
+}
+
